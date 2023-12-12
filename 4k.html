@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="logo">
+        <img src="icon-image.png" alt="icon-oneshots" height="80px" width="80px">
+        <h1>One Shots</h1>
+    </div> 
+    <div class="search">
+        <div class="area" id="search-box">
+            <input id="inp-box" type="text"></input>
+        </div>
+
+        <div class="icon-container">
+            <span class="fas fa-search" onclick="search(); handleSearch()"></span>
+        </div>
+    </div>
+    <div class="login"></div>
+</div>
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="beach.html">Beach</a>
+    <a href="city.html">City</a>
+    <a href="cars.html">Car</a>
+    <a href="mountain.html">Mountain</a>
+    <a href="architecture.html">Architecture</a>
+    <a href="forest.html">Forest</a>
+    <a href="space.html">Space</a>
+    </div>
+
+
+
+<h2>4K Images</h2>
+
+<div class="image-container">
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=600" alt="4K Image 1">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=600', '4K_Image_1.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/1229042/pexels-photo-1229042.jpeg?auto=compress&cs=tinysrgb&w=600" alt="4K Image 2">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/1229042/pexels-photo-1229042.jpeg?auto=compress&cs=tinysrgb&w=600', '4K_Image_2.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+    <img src="https://images.pexels.com/photos/33045/lion-wild-africa-african.jpg?auto=compress&cs=tinysrgb&w=600" alt="4K Image 3">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/33045/lion-wild-africa-african.jpg?auto=compress&cs=tinysrgb&w=600', '4K_Image_3.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/1629998/pexels-photo-1629998.jpeg?auto=compress&cs=tinysrgb&w=600" alt="4K Image 4">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/1629998/pexels-photo-1629998.jpeg?auto=compress&cs=tinysrgb&w=600', '4K_Image_4.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/1213447/pexels-photo-1213447.jpeg?auto=compress&cs=tinysrgb&w=600" alt="4K Image 5">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/1213447/pexels-photo-1213447.jpeg?auto=compress&cs=tinysrgb&w=600', '4K_Image_5.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/1270184/pexels-photo-1270184.jpeg?auto=compress&cs=tinysrgb&w=600" alt="4K Image 6">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/1270184/pexels-photo-1270184.jpeg?auto=compress&cs=tinysrgb&w=600', '4K_Image_6.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/135018/pexels-photo-135018.jpeg?auto=compress&cs=tinysrgb&w=600" alt="4K Image 7">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/135018/pexels-photo-135018.jpeg?auto=compress&cs=tinysrgb&w=600', '4K_Image_7.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/1480347/pexels-photo-1480347.jpeg?auto=compress&cs=tinysrgb&w=600" alt="4K Image 8">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/1480347/pexels-photo-1480347.jpeg?auto=compress&cs=tinysrgb&w=600', '4K_Image_8.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&w=600" alt="4K Image 9">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&w=600', '4K_Image_9.jpg')">Download</button>
+    </div>
+</div> 
+
+</body>
+</html>

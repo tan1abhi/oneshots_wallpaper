@@ -1,0 +1,139 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    padding: 20px;
+    background-image: linear-gradient(rgb(30, 165, 30),rgb(140, 237, 140));
+    margin-left: 28px;
+    margin-right: 28px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border-radius: 7px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.image-item {
+    position: relative;
+    flex: 0 0 calc(33.33% - 20px); /* Three images in a row with gap */
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #fff;
+    height: 300px; /* Set a fixed height for the container */
+}
+
+.image-item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover; /* Ensure the image covers the container */
+}
+
+.download-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar {
+    
+    background-image: linear-gradient(rgb(49, 48, 48), rgb(128, 128, 127));
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #333;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    padding: 8px;  /* Allow the items to stay on a single line */
+
+}
+
+.navbar a {
+    float: left;
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    font-size: large;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    width: 7%;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    font-weight: 600;
+
+}
+
+.nav-arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-arrows.left {
+    left: 5px;
+}
+
+.nav-arrows.right {
+    right: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+}
+
+.logo {
+    display: flex;
+    font-size: large;
+    margin-right: auto; /* Push the logo to the left as much as possible */
+}
+
+.search {
+    display: flex;
+    align-self: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: auto; /* Push the search bar to the right as much as possible */
+}
+
+ 
+.icon-container{
+    padding: 10px;
+    align-self: flex-start;
+ 
+}
+ 
+#inp-box{
+    display: inline;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #ddd;
+}

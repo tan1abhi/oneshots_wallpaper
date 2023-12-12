@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo">
+            <img src="icon-image.png" alt="icon-oneshots" height="80px" width="80px">
+            <h1>One Shots</h1>
+        </div> 
+        <div class="search">
+            <div class="area" id="search-box">
+                <input id="inp-box" type="text"></input>
+            </div>
+    
+            <div class="icon-container">
+                <span class="fas fa-search" onclick="search(); handleSearch()"></span>
+            </div>
+        </div>
+        <div class="login"></div>
+    </div>
+    
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="beach.html">Beach</a>
+        <a href="city.html">City</a>
+        <a href="cars.html">Car</a>
+        <a href="mountain.html">Mountain</a>
+        <a href="4k.html">4K</a>
+        <a href="forest.html">Forest</a>
+        <a href="architecture.html">Architecture</a>
+    </div>
+    
+<h2>Space Images</h2>
+
+<div class="image-container">
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&w=600" alt="space Image 1">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&w=600', 'space_Image_1.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/41951/solar-system-emergence-spitzer-telescope-telescope-41951.jpeg?auto=compress&cs=tinysrgb&w=600" alt="space Image 2">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/41951/solar-system-emergence-spitzer-telescope-telescope-41951.jpeg?auto=compress&cs=tinysrgb&w=600', 'space_Image_2.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/6039245/pexels-photo-6039245.jpeg?auto=compress&cs=tinysrgb&w=600" alt="space Image 3">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/6039245/pexels-photo-6039245.jpeg?auto=compress&cs=tinysrgb&w=600', 'space_Image_3.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/3607542/pexels-photo-3607542.jpeg?auto=compress&cs=tinysrgb&w=600" alt="space Image 4">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/3607542/pexels-photo-3607542.jpeg?auto=compress&cs=tinysrgb&w=600', 'space_Image_4.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/6499023/pexels-photo-6499023.jpeg?auto=compress&cs=tinysrgb&w=600" alt="space Image 5">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/6499023/pexels-photo-6499023.jpeg?auto=compress&cs=tinysrgb&w=600', 'space_Image_5.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/2085998/pexels-photo-2085998.jpeg?auto=compress&cs=tinysrgb&w=600" alt="space Image 6">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/2085998/pexels-photo-2085998.jpeg?auto=compress&cs=tinysrgb&w=600', 'space_Image_6.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/3374210/pexels-photo-3374210.jpeg?auto=compress&cs=tinysrgb&w=600" alt="space Image 7">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/3374210/pexels-photo-3374210.jpeg?auto=compress&cs=tinysrgb&w=600', 'space_Image_7.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/9408726/pexels-photo-9408726.jpeg?auto=compress&cs=tinysrgb&w=600" alt="space Image 8">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/9408726/pexels-photo-9408726.jpeg?auto=compress&cs=tinysrgb&w=600', 'space_Image_8.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/14004585/pexels-photo-14004585.jpeg?auto=compress&cs=tinysrgb&w=600" alt="space Image 9">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/14004585/pexels-photo-14004585.jpeg?auto=compress&cs=tinysrgb&w=600', 'space_Image_9.jpg')">Download</button>
+    </div>
+</div> 
+
+</body>
+</html>

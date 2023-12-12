@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Photos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  
+
+    <script>
+    function handleScroll() {
+        const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const scrolledToBottom = window.scrollY >= scrollableHeight;
+
+        if (scrolledToBottom) {
+            console.log('Reached the bottom of the page!');
+            // Your code to execute when the scroll reaches the bottom
+        }
+    }
+
+    // Add scroll event listener
+    window.addEventListener('scroll', handleScroll);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="logo">
+        <img src="icon-image.png" alt="icon-oneshots" height="80px" width="80px">
+        <h1>One Shots</h1>
+    </div> 
+    <div class="search">
+        <div class="area" id="search-box">
+            <input id="inp-box" type="text"></input>
+        </div>
+
+        <div class="icon-container">
+            <span class="fas fa-search" onclick="search(); handleSearch()"></span>
+        </div>
+    </div>
+    <div class="login"></div>
+</div>
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="beach.html">Beach</a>
+    <a href="city.html">City</a>
+    <a href="cars.html">Car</a>
+    <a href="mountain.html">Mountain</a>
+    <a href="4k.html">4K</a>
+    <a href="architecture.html">Architecture</a>
+    <a href="space.html">Space</a>
+</div>
+
+
+<h2>Forest Images</h2>
+
+<div class="image-container">
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/38136/pexels-photo-38136.jpeg?auto=compress&cs=tinysrgb&w=600" alt="forest Image 1">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/38136/pexels-photo-38136.jpeg?auto=compress&cs=tinysrgb&w=600', 'forest_Image_1.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/23547/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="forest Image 2">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/23547/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600', 'forest_Image_2.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+    <img src="https://images.pexels.com/photos/572688/pexels-photo-572688.jpeg?auto=compress&cs=tinysrgb&w=600" alt="forest Image 3">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/572688/pexels-photo-572688.jpeg?auto=compress&cs=tinysrgb&w=600', 'forest_Image_3.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/112934/pexels-photo-112934.jpeg?auto=compress&cs=tinysrgb&w=600" alt="forest Image 4">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/112934/pexels-photo-112934.jpeg?auto=compress&cs=tinysrgb&w=600', 'forest_Image_4.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/141233/pexels-photo-141233.jpeg?auto=compress&cs=tinysrgb&w=600" alt="forest Image 5">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/141233/pexels-photo-141233.jpeg?auto=compress&cs=tinysrgb&w=600', 'forest_Image_5.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/615348/forest-fog-sunny-nature-615348.jpeg?auto=compress&cs=tinysrgb&w=600" alt="forest Image 6">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/615348/forest-fog-sunny-nature-615348.jpeg?auto=compress&cs=tinysrgb&w=600', 'forest_Image_6.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/4418939/pexels-photo-4418939.jpeg?auto=compress&cs=tinysrgb&w=600" alt="forest Image 7">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/4418939/pexels-photo-4418939.jpeg?auto=compress&cs=tinysrgb&w=600', 'forest_Image_7.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/904778/pexels-photo-904778.jpeg?auto=compress&cs=tinysrgb&w=600" alt="forest Image 8">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/904778/pexels-photo-904778.jpeg?auto=compress&cs=tinysrgb&w=600', 'forest_Image_8.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/5591708/pexels-photo-5591708.jpeg?auto=compress&cs=tinysrgb&w=600" alt="forest Image 9">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/5591708/pexels-photo-5591708.jpeg?auto=compress&cs=tinysrgb&w=600', 'forest_Image_9.jpg')">Download</button>
+    </div>
+</div> 
+
+</body>
+</html>

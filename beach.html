@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="logo">
+        <img src="icon-image.png" alt="icon-oneshots" height="80px" width="80px">
+        <h1>One Shots</h1>
+    </div> 
+    <div class="search">
+        <div class="area" id="search-box">
+            <input id="inp-box" type="text"></input>
+        </div>
+
+        <div class="icon-container">
+            <span class="fas fa-search" onclick="search(); handleSearch()"></span>
+        </div>
+    </div>
+    <div class="login"></div>
+</div>
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="city.html">City</a>
+    <a href="cars.html">Car</a>
+    <a href="mountain.html">Mountain</a>
+    <a href="4k.html">4K</a>
+    <a href="forest.html">Forest</a>
+    <a href="architecture.html">Architecture</a>
+    <a href="space.html">Space</a>
+    </div>
+
+<h2>Beach Images</h2>
+
+<div class="image-container">
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Beach Image 1">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&w=600', 'Beach_Image_1.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Beach Image 2">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&w=600', 'Beach_Image_2.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Beach Image 3">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=600', 'Beach_Image_3.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/262325/pexels-photo-262325.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Beach Image 4">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/262325/pexels-photo-262325.jpeg?auto=compress&cs=tinysrgb&w=600', 'Beach_Image_4.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Beach Image 5">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?auto=compress&cs=tinysrgb&w=600', 'Beach_Image_5.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/176400/pexels-photo-176400.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Beach Image 6">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/176400/pexels-photo-176400.jpeg?auto=compress&cs=tinysrgb&w=600', 'Beach_Image_6.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/634548/pexels-photo-634548.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Beach Image 7">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/634548/pexels-photo-634548.jpeg?auto=compress&cs=tinysrgb&w=600', 'Beach_Image_7.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/247447/pexels-photo-247447.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Beach Image 8">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/247447/pexels-photo-247447.jpeg?auto=compress&cs=tinysrgb&w=600', 'Beach_Image_8.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/1172518/pexels-photo-1172518.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Beach Image 9">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/1172518/pexels-photo-1172518.jpeg?auto=compress&cs=tinysrgb&w=600', 'Beach_Image_9.jpg')">Download</button>
+    </div>
+</div> 
+
+</body>
+</html>

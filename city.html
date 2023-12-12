@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="logo">
+        <img src="icon-image.png" alt="icon-oneshots" height="80px" width="80px">
+        <h1>One Shots</h1>
+    </div> 
+    <div class="search">
+        <div class="area" id="search-box">
+            <input id="inp-box" type="text"></input>
+        </div>
+
+        <div class="icon-container">
+            <span class="fas fa-search" onclick="search(); handleSearch()"></span>
+        </div>
+    </div>
+    <div class="login"></div>
+</div>
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="beach.html">Beach</a>
+    <a href="cars.html">Car</a>
+    <a href="mountain.html">Mountain</a>
+    <a href="4k.html">4K</a>
+    <a href="forest.html">Forest</a>
+    <a href="architecture.html">Architecture</a>
+    <a href="space.html">Space</a>
+</div>
+
+<h2>City Images</h2>
+
+<div class="image-container">
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?auto=compress&cs=tinysrgb&w=600" alt="city Image 1">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&w=600', 'City_Image_1.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&w=600" alt="city Image 2">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&w=600', 'City_Image_2.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/773471/pexels-photo-773471.jpeg?auto=compress&cs=tinysrgb&w=600" alt="city Image 3">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/773471/pexels-photo-773471.jpeg?auto=compress&cs=tinysrgb&w=600', 'City_Image_3.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/169677/pexels-photo-169677.jpeg?auto=compress&cs=tinysrgb&w=600" alt="city Image 4">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/169677/pexels-photo-169677.jpeg?auto=compress&cs=tinysrgb&w=600', 'City_Image_4.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/139303/pexels-photo-139303.jpeg?auto=compress&cs=tinysrgb&w=600" alt="city Image 5">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/139303/pexels-photo-139303.jpeg?auto=compress&cs=tinysrgb&w=600', 'City_Image_5.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/417192/pexels-photo-417192.jpeg?auto=compress&cs=tinysrgb&w=600" alt="city Image 6">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/417192/pexels-photo-417192.jpeg?auto=compress&cs=tinysrgb&w=600', 'City_Image_6.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/356968/pexels-photo-356968.jpeg?auto=compress&cs=tinysrgb&w=600" alt="city Image 7">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/356968/pexels-photo-356968.jpeg?auto=compress&cs=tinysrgb&w=600', 'City_Image_7.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/8047/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="city Image 8">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/8047/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600', 'city_Image_8.jpg')">Download</button>
+    </div>
+    <div class="image-item">
+        <img src="https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&w=600" alt="city Image 9">
+        <button class="download-button" onclick="downloadImage('https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&w=600', 'City_Image_9.jpg')">Download</button>
+    </div>
+</div> 
+
+</body>
+</html>
